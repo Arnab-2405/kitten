@@ -1,0 +1,10 @@
+<div class="wrapper">
+    <h2 class="question">{{ message }}</h2>
+    <div class="box">
+        <img class="gif" alt="gif" [src]="gifSrc" />
+    </div>
+    <div class="btn-group">
+      <button class="yes-btn" (click)="onYesClick()">Yes</button>
+      <button class="no-btn" (mouseover)="onNoHover()">No</button>
+    </div>
+  </div>
